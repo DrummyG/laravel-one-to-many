@@ -19,7 +19,13 @@
             </div>
         @endforeach
     </div>
-    <button><a href="{{route('posts.create')}}">Crea Nuovo Post</a></button>
-    <button><a href="{{route('categories.create')}}">Crea Nuova Categoria</a></button>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button><a href="{{route('posts.create')}}">Crea Nuovo Post</a></button>
+    {{-- <button><a href="{{route('categories.create')}}">Crea Nuova Categoria</a></button> --}}
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

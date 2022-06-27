@@ -19560,3 +19560,10 @@ body {
 .col-3 a {
   color: white;
 }
+
+button {
+  background-color: darkcyan;
+}
+button a {
+  color: white;
+}
